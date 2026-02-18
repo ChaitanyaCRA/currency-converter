@@ -14,5 +14,5 @@ A responsive web application that converts currencies using real-time exchange r
 - Fetch API
 
 ##  Live Demo
-Link =>  https://regal-alpaca-ddeefa.netlify.app
-Password : My-Drop-Site
+Link =>  https://chaitanyacra.github.io/currency-converter/
+
