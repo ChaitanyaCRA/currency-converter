@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link href="Currency_conv.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+          integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- My-Drop-Site -->
+    <div class="container"> <!-- main containet-->
+        <h2>Currency Converter</h2>      <!-- Heading currency converter-->
+        <p class="subtitle">Live exchange rates with real-time API</p>
+        <form>
+            <div class="amount">        <!-- This div is for input div -->
+                <p>Enter Amount</p>
+                <input value="100" type="text">
+            </div>
+
+            <div class="dropdown">
+                <!-- From dropdown -->
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-container">    <!--div used to select country -->
+                        <img src="https://flagsapi.com/US/flat/64.png">
+
+                        <select name="from">            <!--(select 1) Dropdown no 1-->
+                            <!-- here we add the options dynamically -->
+                        </select>
+
+                    </div>
+                </div>
+
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+
+                <!-- To drop down -->
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-container">      <!--div used to select country -->
+                        <img src="https://flagsapi.com/IN/flat/64.png">
+
+                        <select name="to">            <!--(select 2) Dropdown no 2-->
+                            <!-- here we add the options dynamically -->
+                        </select>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="message"> 1USD = 80INR</div>
+            <button> Get Exchange Rate  </button>
+        </form>
+    </div>
+    
+    <script src="codes.js"></script>
+    <script src="Currency_conv.js"></script>
+</body>
+</html>
